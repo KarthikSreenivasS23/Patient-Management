@@ -1,0 +1,14 @@
+### grpc request to create biling account for a patient
+
+GRPC localhost:9001/BillingService/createBillingAccount
+Content-Type: application/json
+
+{
+  "patientId": "123456789",
+  "name": "mrbean",
+  "email": "mrbean@gmail.com",
+  "address": "123 jub road san fanciso usa"
+}
+
+
+###

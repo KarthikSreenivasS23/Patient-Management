@@ -1,0 +1,10 @@
+### update request to patient server
+PUT http://localhost:4000/patients/b60f4f93-1c04-47a0-8b96-274337f1d2de
+Content-Type: application/json
+
+{
+  "email": "mj@gmail.com",
+  "address": "2345 mitchell street calfornia usa",
+  "dateOfBirth": "1982-09-17"
+}
+###
